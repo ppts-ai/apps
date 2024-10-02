@@ -5,7 +5,7 @@ category: networking
 displayName: yt-dlp
 createdAt: "2024-09-23T15:48:00Z"
 description: most popular video/audio download tool
-logoURL: https://raw.githubusercontent.com/ppts-ai/yt-dlp/master/.github/banner.svg
+logoURL: https://raw.githubusercontent.com/yt-dlp/yt-dlp/refs/heads/master/.github/banner.svg
 license: The Unlicense
 homeURL: https://ppts-ai.github.io/apps/yt-dlp
 appVersion: "2024.08.06"
