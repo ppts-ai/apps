@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  yt-dlp:
+  - apiVersion: v2
+    appVersion: 2024.10.07
+    created: "2024-10-14T23:39:11.76230035Z"
+    description: yt-dlp is a popular video download tool
+    digest: f09e5d3a6f1db2f2d5ce26c31443b655109fb0a9ef3943521de63dec18c1f332
+    name: yt-dlp
+    type: application
+    urls:
+    - https://ppts-ai.github.io/apps/yt-dlp-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-14T23:39:11.760570932Z"
