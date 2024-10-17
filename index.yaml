@@ -1,14 +1,24 @@
 apiVersion: v1
 entries:
   yt-dlp:
-  - apiVersion: v2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Support for Radius recipes
+        - kind: added
+          description: Display signed badge for Inspektor Gadget artifacts
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/images: |
+        - name: nginx
+          image: nginx:1.27.2
+    apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-14T23:43:31.212846084Z"
+    created: "2024-10-17T19:04:10.536821543Z"
     description: yt-dlp is a popular video download tool
-    digest: 8cdfb4d8bc4aee5884910038d3880405c25cf96c808ad60b2ac19de318570762
+    digest: 900c4a422d6e207a039b75af99d28d18690c0e6d6a732f76143b919f4cd70df3
     name: yt-dlp
     type: application
     urls:
-    - https://ppts-ai.github.io/apps/yt-dlp-0.1.0.tgz
-    version: 0.1.0
-generated: "2024-10-14T23:43:31.212002576Z"
+    - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-10-17T19:04:10.535922362Z"
