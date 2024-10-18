@@ -1,0 +1,15 @@
+annotations:
+  ppts.ai/type: "service"
+  artifacthub.io/changes: |
+    - kind: added
+      description: first release for libp2p-proxy
+  artifacthub.io/containsSecurityUpdates: "true"
+  artifacthub.io/images: |
+    - name: libp2p-proxy
+      image: jasonhao123/libp2p-proxy:0.1
+apiVersion: v2
+name: libp2p-proxy
+description: socks5 proxy using libp2p protocol
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
