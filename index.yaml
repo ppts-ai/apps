@@ -12,9 +12,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-10-18T22:37:20.47341427Z"
+    created: "2024-10-18T22:49:28.018010822Z"
     description: socks5 proxy using libp2p protocol
-    digest: e96c29ef28f6efe0b3c28824f4a6e62071f078c689f3c22d5edae2f7b0e1f75e
+    digest: 97a8f1533b87028cb4d847409d88616832fe8d6243367313d65fbe1c09ae3ca2
     name: libp2p-proxy
     type: application
     urls:
@@ -33,12 +33,12 @@ entries:
           image: nginx:1.27.2
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-18T22:37:20.474202527Z"
+    created: "2024-10-18T22:49:28.01872171Z"
     description: yt-dlp is a popular video download tool
-    digest: 3037160b968450c117e8dd9a2a596d9f34872f3fb80a359c27ce02589effe91c
+    digest: 12ddbd2e7b2f81e879164235e43d06e2a7710acefa91c4eaa3dad58eb9314d5e
     name: yt-dlp
     type: application
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-18T22:37:20.472927854Z"
+generated: "2024-10-18T22:49:28.017481533Z"
