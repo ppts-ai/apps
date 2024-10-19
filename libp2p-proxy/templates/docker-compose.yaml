@@ -2,8 +2,7 @@ version: "3"
 name: "libp2p-proxy"
 services:
   libp2p-proxy:
-    image: jasonhao123/libp2p-proxy:0.1
+    image: jasonhao123/libp2p-proxy:0.1.1
     container_name: libp2p-proxy
     ports:
-      - "1082:1082"             
-    command: ["--peer", "/ip4/192.168.10.178/tcp/11212/ws/p2p/12D3KooWSPGy9bCrTRF5Nwsb3B6CQsZ9VGvEGPJ6ZT2ZWWCTXR3p"]
+      - "1082:1082"

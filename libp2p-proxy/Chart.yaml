@@ -6,7 +6,7 @@ annotations:
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
     - name: libp2p-proxy
-      image: jasonhao123/libp2p-proxy:0.1
+      image: jasonhao123/libp2p-proxy:0.1.1
 apiVersion: v2
 name: libp2p-proxy
 description: socks5 proxy using libp2p protocol
