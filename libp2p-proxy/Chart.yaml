@@ -2,6 +2,7 @@ annotations:
   ppts.ai/type: "service"
   ppts.ai/open-type: "browser"
   ppts.ai/open-proxy: "socks5://localhost:1082"
+  ppts.ai/open-url: "http://www.google.com"
   artifacthub.io/changes: |
     - kind: added
       description: add configuration file into 
