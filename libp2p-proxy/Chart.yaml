@@ -1,8 +1,10 @@
 annotations:
   ppts.ai/type: "service"
+  ppts.ai/open-type: "browser"
+  ppts.ai/open-proxy: "socks5://localhost:1082"
   artifacthub.io/changes: |
     - kind: added
-      description: first release for libp2p-proxy
+      description: add configuration file into 
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: libp2p-proxy
@@ -13,3 +15,7 @@ description: socks5 proxy using libp2p protocol
 type: application
 version: 0.1.1
 appVersion: "0.1.1"
+icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
+keywords:
+- p2p
+- proxy
