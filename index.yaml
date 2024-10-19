@@ -2,19 +2,24 @@ apiVersion: v1
 entries:
   libp2p-proxy:
   - annotations:
-      artifacthub.io/changes: |
-        - kind: added
-          description: first release for libp2p-proxy
+      artifacthub.io/changes: "- kind: added\n  description: add configuration file
+        into \n"
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/images: |
         - name: libp2p-proxy
           image: jasonhao123/libp2p-proxy:0.1.1
+      ppts.ai/open-proxy: socks5://localhost:1082
+      ppts.ai/open-type: browser
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-19T19:01:20.938363038Z"
+    created: "2024-10-19T20:29:00.220088745Z"
     description: socks5 proxy using libp2p protocol
-    digest: 17c8bd6c9cbffcd0f82dfa80dde3dcaf466554c3187c3c3f56de60d1a2846f62
+    digest: 69547a0df71d71358e40158534772de5b638df756cf4b22d31eecde89011a052
+    icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
+    keywords:
+    - p2p
+    - proxy
     name: libp2p-proxy
     type: application
     urls:
@@ -33,12 +38,12 @@ entries:
           image: nginx:1.27.2
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-19T19:01:20.939085384Z"
+    created: "2024-10-19T20:29:00.220851263Z"
     description: yt-dlp is a popular video download tool
-    digest: b254222ae15a75686d2f2833fd33e73818e0084aedf9987349867d732649795f
+    digest: 35599b595570d11390779e30600aaf37d989530cf6266b321039e875fce845cf
     name: yt-dlp
     type: application
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-19T19:01:20.93787037Z"
+generated: "2024-10-19T20:29:00.219509048Z"
