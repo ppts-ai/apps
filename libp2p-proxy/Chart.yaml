@@ -3,7 +3,7 @@ annotations:
   artifacthub.io/changes: |
     - kind: added
       description: first release for libp2p-proxy
-  artifacthub.io/containsSecurityUpdates: "true"
+  artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: libp2p-proxy
       image: jasonhao123/libp2p-proxy:0.1.1
