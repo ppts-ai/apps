@@ -1,4 +1,6 @@
 annotations:
+  ppts.ai/type: "command"
+  ppts.ai/container: "yt-dlp"
   artifacthub.io/changes: |
     - kind: added
       description: Support for Radius recipes
@@ -14,3 +16,8 @@ description: yt-dlp is a popular video download tool
 type: application
 version: 0.1.1
 appVersion: "2024.10.07"
+icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
+keywords:
+- video
+- youtube
+- download

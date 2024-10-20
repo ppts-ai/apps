@@ -2,14 +2,5 @@ version: "3"
 name: "yt-dlp"
 services:
   nginx:
-    image: nginx:1.27.2
-    container_name: nginx-container
-    ports:
-      - "8080:80"
-      - "8443:443"             
-    networks:
-      - webnet
-
-networks:
-  webnet:
-    driver: bridge
+    image: jasonhao123/yt-dlp:0.1
+    container_name: yt-dlp
