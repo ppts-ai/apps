@@ -14,9 +14,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-19T23:17:29.143718963Z"
+    created: "2024-10-20T21:51:48.572101868Z"
     description: socks5 proxy using libp2p protocol
-    digest: 46569726772d6927d780718249916ede455ee2d9dfa2e27067d17267658386fb
+    digest: 4f06a22207d8f3e135f05b152709611cef1aa1eda43c2fa4b8eb7fc76f7d02a0
     icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
     keywords:
     - p2p
@@ -37,14 +37,21 @@ entries:
       artifacthub.io/images: |
         - name: nginx
           image: nginx:1.27.2
+      ppts.ai/container: yt-dlp
+      ppts.ai/type: command
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-19T23:17:29.144415134Z"
+    created: "2024-10-20T21:51:48.572927822Z"
     description: yt-dlp is a popular video download tool
-    digest: fa162a4956c817e566fdb5f6101e47cccb35ea31d3cabe2ea9bcca6cd2274424
+    digest: af56c344873de9564d99847e7bfd4fca1886ecd4391c69d80ab5eb424df2e197
+    icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
+    keywords:
+    - video
+    - youtube
+    - download
     name: yt-dlp
     type: application
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-19T23:17:29.143162032Z"
+generated: "2024-10-20T21:51:48.571545614Z"
