@@ -13,9 +13,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-23T12:34:24.977510665Z"
+    created: "2024-10-23T16:21:04.484377256Z"
     description: A Helm chart for Kubernetes
-    digest: a543c680e9254a08183989aeb87fd7ee0386171db135bef7477cf07812cce2ea
+    digest: c1e02c3d293b75beb4723f64662f5b31bddad85187d0c66549e0c8508b4a4a48
     name: jupyterlab
     type: application
     urls:
@@ -35,9 +35,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-23T12:34:24.977962918Z"
+    created: "2024-10-23T16:21:04.484805544Z"
     description: socks5 proxy using libp2p protocol
-    digest: f15e0c1913379daa8c6f488134031f1c88dd2981436d9e182e0ae63c573ea9d6
+    digest: 84dec076da1514b63d76224a80d7c11dc8019bf1b87043a7e5812075f721c052
     icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
     keywords:
     - p2p
@@ -62,9 +62,9 @@ entries:
       ppts.ai/type: command
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-23T12:34:24.978688121Z"
+    created: "2024-10-23T16:21:04.485542145Z"
     description: yt-dlp is a popular video download tool
-    digest: 85df4a40a44743508c7460a60589fa4710f39e1d0fe68b374202a9eb431e5fa0
+    digest: 1cddc6010c87ead39ccb4755ce4c6ffa845e56406d8d3c7d76aecd87ae608d1b
     icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
     keywords:
     - video
@@ -75,4 +75,4 @@ entries:
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-23T12:34:24.976909914Z"
+generated: "2024-10-23T16:21:04.483740541Z"
