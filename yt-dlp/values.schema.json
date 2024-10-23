@@ -1,5 +1,5 @@
 {
-  "schema": {
+  "$schema": "http://json-schema.org/schema#",
   "type": "object",
   "title": "yt-dlp",
   "version": "0.0.2",
@@ -34,13 +34,4 @@
       "template": ["--no-check-certificates"]
     }
   }
-},
-"messages": {
-  "en": {
-    "title": "English"
-  },
-  "zh": {
-    "title": "简体中文"
-  }
-}
 }
