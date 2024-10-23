@@ -1,0 +1,17 @@
+annotations:
+  ppts.ai/type: "service"
+  ppts.ai/open-type: "browser"
+  ppts.ai/open-url: "http://localhost:8888"
+  artifacthub.io/changes: |
+    - kind: added
+      description: add configuration file into 
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/images: |
+    - name: jupyterlab
+      image: jupyter/scipy-notebook:x86_64-python-3.11
+apiVersion: v2
+name: jupyterlab
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"

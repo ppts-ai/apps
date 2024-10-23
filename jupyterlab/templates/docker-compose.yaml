@@ -1,0 +1,8 @@
+version: "3"
+name: "jupyterlab"
+services:
+  jupyterlab:
+    image: jupyter/scipy-notebook:x86_64-python-3.11
+    container_name: libp2p-proxy
+    ports:
+      - "8888:8888"
