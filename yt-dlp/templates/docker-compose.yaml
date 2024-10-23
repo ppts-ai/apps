@@ -1,4 +1,3 @@
-version: "3"
 name: "yt-dlp"
 services:
   yt-dlp:

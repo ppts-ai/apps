@@ -1,4 +1,3 @@
-version: "3"
 name: "libp2p-proxy"
 services:
   libp2p-proxy:
