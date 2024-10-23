@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  jupyterlab:
+  - annotations:
+      artifacthub.io/changes: "- kind: added\n  description: add configuration file
+        into \n"
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: jupyterlab
+          image: jupyter/scipy-notebook:x86_64-python-3.11
+      ppts.ai/open-type: browser
+      ppts.ai/open-url: http://localhost:8888
+      ppts.ai/type: service
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-23T12:03:48.057633065Z"
+    description: A Helm chart for Kubernetes
+    digest: f85af8a1ec185bc818cc1caf9aef6e10e0ed75667bc69c53f00cef854026c3ed
+    name: jupyterlab
+    type: application
+    urls:
+    - https://ppts-ai.github.io/apps/jupyterlab-0.1.0.tgz
+    version: 0.1.0
   libp2p-proxy:
   - annotations:
       artifacthub.io/changes: "- kind: added\n  description: add configuration file
@@ -14,9 +35,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-22T08:17:02.227830602Z"
+    created: "2024-10-23T12:03:48.058034716Z"
     description: socks5 proxy using libp2p protocol
-    digest: 94c4ece4d1d602500f136b1826189a73ff80c3d7aa4f7fabde4cad104b2fc31a
+    digest: 8e2ab41cd6ae4dec72516e32e0eae762a947c1fe78143f5e65369a920bd1b23f
     icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
     keywords:
     - p2p
@@ -41,9 +62,9 @@ entries:
       ppts.ai/type: command
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-22T08:17:02.228589083Z"
+    created: "2024-10-23T12:03:48.058735126Z"
     description: yt-dlp is a popular video download tool
-    digest: 2bf4a318ecd4079f1bc7f4ef6c2a88924b7a79f37e7acf3fadc689e65a51226a
+    digest: 3592cb2ac524048ba725e47a41aa0a54535062ed6afd664e35e471b28218f589
     icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
     keywords:
     - video
@@ -54,4 +75,4 @@ entries:
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-22T08:17:02.227245053Z"
+generated: "2024-10-23T12:03:48.057007525Z"
