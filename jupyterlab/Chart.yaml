@@ -8,7 +8,7 @@ annotations:
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: jupyterlab
-      image: jupyter/scipy-notebook:x86_64-python-3.11
+      image: jasonhao123/jupyterlab:0.1
 apiVersion: v2
 name: jupyterlab
 description: A Helm chart for Kubernetes

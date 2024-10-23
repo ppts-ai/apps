@@ -2,7 +2,17 @@ version: "3"
 name: "jupyterlab"
 services:
   jupyterlab:
-    image: jupyter/scipy-notebook:x86_64-python-3.11
-    container_name: libp2p-proxy
+    image: jasonhao123/jupyterlab:0.1
+    container_name: jupyterlab
     ports:
       - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      NB_USER: "jovyan"
+      NB_UID: "1000"
+      NB_GID: "100"
+      GRANT_SUDO: "yes"
+      # Disable token and password
+      JUPYTER_TOKEN: ""
+      JUPYTER_PASSWORD: ""
+    command: start.sh jupyter lab --NotebookApp.token='' --NotebookApp.password=''
