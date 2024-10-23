@@ -16,3 +16,8 @@ services:
       JUPYTER_TOKEN: ""
       JUPYTER_PASSWORD: ""
     command: start.sh jupyter lab --NotebookApp.token='' --NotebookApp.password=''
+    volumes:
+      - jupyter_data:/home/jovyan/
+
+volumes:
+  jupyter_data:
