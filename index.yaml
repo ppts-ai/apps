@@ -7,15 +7,15 @@ entries:
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/images: |
         - name: jupyterlab
-          image: jupyter/scipy-notebook:x86_64-python-3.11
+          image: jasonhao123/jupyterlab:0.1
       ppts.ai/open-type: browser
       ppts.ai/open-url: http://localhost:8888
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-23T12:03:48.057633065Z"
+    created: "2024-10-23T12:29:47.456159327Z"
     description: A Helm chart for Kubernetes
-    digest: f85af8a1ec185bc818cc1caf9aef6e10e0ed75667bc69c53f00cef854026c3ed
+    digest: 82e983c3df1c120ac7b56284becd29351b11cbb98acc0c6d185ef727f4f1f102
     name: jupyterlab
     type: application
     urls:
@@ -35,9 +35,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-23T12:03:48.058034716Z"
+    created: "2024-10-23T12:29:47.456583961Z"
     description: socks5 proxy using libp2p protocol
-    digest: 8e2ab41cd6ae4dec72516e32e0eae762a947c1fe78143f5e65369a920bd1b23f
+    digest: 1f85426da1ae8ebddcece97bfec96053718e4945158a8ba70d7f44f5c9485874
     icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
     keywords:
     - p2p
@@ -62,9 +62,9 @@ entries:
       ppts.ai/type: command
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-10-23T12:03:48.058735126Z"
+    created: "2024-10-23T12:29:47.457317713Z"
     description: yt-dlp is a popular video download tool
-    digest: 3592cb2ac524048ba725e47a41aa0a54535062ed6afd664e35e471b28218f589
+    digest: 85d4df2cd9024e83f95dc36bbf93b2ae67acc3cafb8e3c4ff33d3527dc83319f
     icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
     keywords:
     - video
@@ -75,4 +75,4 @@ entries:
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-23T12:03:48.057007525Z"
+generated: "2024-10-23T12:29:47.455561318Z"
