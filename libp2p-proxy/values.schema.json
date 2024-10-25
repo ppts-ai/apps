@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "region": {
+            "title": "Region",
+            "type": "string",
+            "default": "Korea",
+            "enum": ["Korea", "US", "France", "Singapore"]
+        }
+       
+    }
+}
