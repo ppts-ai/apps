@@ -1,7 +1,7 @@
 annotations:
   ppts.ai/type: "service"
   ppts.ai/open-type: "browser"
-  ppts.ai/open-url: "https://ollama-ui.github.io"
+  ppts.ai/open-url: "https://ollama-ui.github.io/ollama-ui"
   artifacthub.io/changes: |
     - kind: added
       description: add configuration file into 
