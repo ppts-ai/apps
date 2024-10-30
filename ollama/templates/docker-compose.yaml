@@ -6,4 +6,9 @@ services:
       - "11434:11434"  # Expose the port if the service needs to be accessed externally
     environment:
       - OLLAMA_ORIGINS=https://ollama-ui.github.io
-
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [compute, utility]
