@@ -1,0 +1,17 @@
+annotations:
+  ppts.ai/type: "service"
+  ppts.ai/open-type: "browser"
+  ppts.ai/open-url: "http://localhost:8080"
+  artifacthub.io/changes: |
+    - kind: added
+      description: add configuration file into 
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/images: |
+    - name: ollama
+      image: jasonhao123/continue:0.1
+apiVersion: v2
+name: continue
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
