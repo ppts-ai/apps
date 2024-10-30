@@ -1,0 +1,9 @@
+services:
+  ollama:
+    image: jasonhao123/ollama:0.1  # Replace with the exact Ollama + Llama 3.2 image name if different
+    container_name: ollama
+    ports:
+      - "11434:11434"  # Expose the port if the service needs to be accessed externally
+    environment:
+      - OLLAMA_ORIGINS=https://ollama-ui.github.io
+
