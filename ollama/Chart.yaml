@@ -8,7 +8,7 @@ annotations:
   artifacthub.io/containsSecurityUpdates: "false"
   artifacthub.io/images: |
     - name: ollama
-      image: jasonhao123/ollama:0.1
+      image: harbor.ppts.ai/jasonhao123/ollama:0.1
 apiVersion: v2
 name: ollama
 description: A Helm chart for Kubernetes
