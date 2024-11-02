@@ -2,14 +2,9 @@ services:
   ollama:
     image: crpi-9r8f1oib2nrihtmu.cn-shanghai.personal.cr.aliyuncs.com/jasonhao123/ollama:0.1  # Replace with the exact Ollama + Llama 3.2 image name if different
     container_name: ollama
+    devices:
+      - nvidia.com/gpu=all
     ports:
       - "11434:11434"  # Expose the port if the service needs to be accessed externally
     environment:
       - OLLAMA_ORIGINS="*"
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu, utility, compute]
