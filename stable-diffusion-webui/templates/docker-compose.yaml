@@ -1,0 +1,9 @@
+services:
+  stable-diffusion-webui:
+    image: harbor.ppts.ai/universonic/stable-diffusion-webui:full  # Replace with the exact Ollama + Llama 3.2 image name if different
+    container_name: stable-diffusion-webui
+    devices:
+      - nvidia.com/gpu=all
+    ports:
+      - "8080:8080"  # Expose the port if the service needs to be accessed externally
+
