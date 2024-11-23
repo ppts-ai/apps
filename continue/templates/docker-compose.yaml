@@ -4,8 +4,3 @@ services:
     container_name: vscode
     ports:
       - "8080:8080"  # Port for accessing VS Code in the browser
-    volumes:
-      - ${DOCUMENT}/workspace:/home/coder/project
-      - ./config.yaml:/home/coder/.config/code-server/config.yaml
-      - ./config.json:/home/code/.continue/config.json
-

@@ -1,7 +1,7 @@
 annotations:
   ppts.ai/type: "service"
   ppts.ai/open-type: "browser"
-  ppts.ai/open-url: "http://localhost:8080"
+  ppts.ai/open-url: "http://localhost:8080?folder=/home/coder"
   artifacthub.io/changes: |
     - kind: added
       description: add configuration file into 
