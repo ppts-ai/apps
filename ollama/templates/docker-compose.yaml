@@ -1,6 +1,6 @@
 services:
   ollama:
-    image: ollama/ollama:latest  # Replace with the exact Ollama + Llama 3.2 image name if different
+    image: harbor.ppts.ai/ollama/ollama:0.4.4  # Replace with the exact Ollama + Llama 3.2 image name if different
     container_name: ollama
     devices:
       - nvidia.com/gpu=all

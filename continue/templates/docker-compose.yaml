@@ -1,6 +1,6 @@
 services:
   vscode:
-    image: jasonhao123/continue:0.1  # VS Code browser server image
+    image: harbor.ppts.ai/jasonhao123/continue:0.1  # VS Code browser server image
     container_name: vscode
     ports:
       - "8080:8080"  # Port for accessing VS Code in the browser
