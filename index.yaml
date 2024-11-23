@@ -13,9 +13,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-23T11:21:02.879087811Z"
+    created: "2024-11-23T11:25:30.501980904Z"
     description: A Helm chart for Kubernetes
-    digest: f6d00ef90e2f140e7d3b08e64b42321afa8d04b454b75ff6a57f23027633d98f
+    digest: b970d80e3b9210423ff38252648c8e20864d88f05094ab6c2e6b54c1e52900f8
     name: continue
     type: application
     urls:
@@ -34,9 +34,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-23T11:21:02.879684085Z"
+    created: "2024-11-23T11:25:30.502563861Z"
     description: A Helm chart for Kubernetes
-    digest: 6e4a6febd43f088e8c42843f9c1b477f6fd79de3ac36939dd88f64457e38d2b3
+    digest: 249b67faa81cce353b8141dc889f92816716dcce2cad615d236e0d21bed44b86
     icon: https://raw.githubusercontent.com/ppts-ai/apps/refs/heads/master/jupyterlab/icon.png
     name: jupyterlab
     type: application
@@ -57,9 +57,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-11-23T11:21:02.880080315Z"
+    created: "2024-11-23T11:25:30.502972853Z"
     description: socks5 proxy using libp2p protocol
-    digest: 6ba4dca1731e032c726e638698e82c3f353e5b6725c8d71c5201357f22dd0741
+    digest: 2fa9fce5e4ca65539c046734ca2add48433d5fdc9e8703eb7cdbf6805e655f78
     icon: https://github.com/ppts-ai/libp2p-proxy/blob/main/icon.png?raw=true
     keywords:
     - p2p
@@ -82,9 +82,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-23T11:21:02.880730148Z"
+    created: "2024-11-23T11:25:30.503622063Z"
     description: A Helm chart for Kubernetes
-    digest: 631ddff849fba299a01fdab00a8e81f84e16b22e02ed6073c0f8206f76fc4a03
+    digest: 09feb90c4fa997f8a175408908271bcf6a356ddbf9d4f9fb8c6161fcd919f658
     icon: https://raw.githubusercontent.com/ppts-ai/apps/refs/heads/master/ollama/icon.png
     name: ollama
     type: application
@@ -100,9 +100,9 @@ entries:
       ppts.ai/type: service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-23T11:21:02.881441737Z"
+    created: "2024-11-23T11:25:30.504331936Z"
     description: A Helm chart for Kubernetes
-    digest: 5540683de13fe92f3de2200c774d562cfcee4d6a38461158e75d88222620736d
+    digest: ca11c56e63fdecb79bfe1171d95a117eba57489e70202efb8bd0b31b36a7d212
     icon: https://raw.githubusercontent.com/ppts-ai/apps/refs/heads/master/stable-diffusion-webui/icon.png
     name: stable-diffusion-webui
     type: application
@@ -124,9 +124,9 @@ entries:
       ppts.ai/type: command
     apiVersion: v2
     appVersion: 2024.10.07
-    created: "2024-11-23T11:21:02.882156291Z"
+    created: "2024-11-23T11:25:30.505048431Z"
     description: yt-dlp is a popular video download tool
-    digest: bdd750f48780595b55e5918aaa106ecf877f045de251135f1be17f475e7be6e1
+    digest: 374c80c088dec2961f71cc13659c1a4471565654b8f357bea05f25a327e970d9
     icon: https://raw.githubusercontent.com/ppts-ai/yt-dlp/refs/heads/master/icon.png
     keywords:
     - video
@@ -137,4 +137,4 @@ entries:
     urls:
     - https://ppts-ai.github.io/apps/yt-dlp-0.1.1.tgz
     version: 0.1.1
-generated: "2024-11-23T11:21:02.878551821Z"
+generated: "2024-11-23T11:25:30.501461316Z"
