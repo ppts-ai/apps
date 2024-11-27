@@ -1,0 +1,11 @@
+services:
+  ollama:
+    image: harbor.ppts.ai/jasonhao123/cuda:0.1  # Replace with the exact Ollama + Llama 3.2 image name if different
+    container_name: ollama
+    devices:
+      - nvidia.com/gpu=all
+    ports:
+      - "14833::14833:"  # Expose the port if the service needs to be accessed externally
+    command: ["server"]
+
+
