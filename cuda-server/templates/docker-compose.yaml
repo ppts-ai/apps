@@ -5,7 +5,5 @@ services:
     devices:
       - nvidia.com/gpu=all
     ports:
-      - "14833::14833:"  # Expose the port if the service needs to be accessed externally
+      - "14833:14833"
     command: ["server"]
-
-
