@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   sftpgo:
-    image: drakkan/sftpgo:latest
+    image: harbor.ppts.ai/drakkan/sftpgo:v2.6.4
     container_name: sftpgo
     restart: always
     ports:
