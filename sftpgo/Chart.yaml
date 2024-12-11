@@ -1,0 +1,21 @@
+annotations:
+  ppts.ai/type: "service"
+  ppts.ai/open-type: "browser"
+  ppts.ai/open-url: "http://www.google.com"
+  artifacthub.io/changes: |
+    - kind: added
+      description: add configuration file into 
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/images: |
+    - name: sftpgo
+      image: drakkan/sftpgo:v2.6.4
+apiVersion: v2
+name: sftpgo
+description: socks5 proxy using libp2p protocol
+type: application
+version: 0.1.1
+appVersion: "0.1.1"
+icon: https://raw.githubusercontent.com/ppts-ai/apps/refs/heads/master/sftpgo/icon.png
+keywords:
+- p2p
+- proxy
