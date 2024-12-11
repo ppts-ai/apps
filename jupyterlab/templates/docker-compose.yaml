@@ -1,7 +1,7 @@
 name: "jupyterlab"
 services:
   jupyterlab:
-    image: jasonhao123/jupyterlab:0.1
+    image: harbor.ppts.ai/jupyter/base-notebook:python-3.11
     container_name: jupyterlab
     ports:
       - "8888:8888"
